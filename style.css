@@ -1,0 +1,32 @@
+
+.forbgc{
+    background-color: transparent;
+    border-color: transparent; 
+}
+.forbgc:hover{
+    background-color: transparent;
+    border-color: transparent; 
+    
+}
+.setinnerpic{
+    height: 80%;
+    width: 50%;
+
+    
+    
+}
+.rendered_cards{
+    display: flex;
+    flex-direction: row;
+}
+.single_del{
+    /* font-size: 1.5rem; */
+    cursor: pointer;
+    color: red;
+    /* min-width: 2rem; */
+}
+.single_del:hover{
+    color: blue;
+}
+
+/* <p class="card-text single_del onclick=del(${i})>X</p> */
